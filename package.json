@@ -1,0 +1,35 @@
+{
+  "name": "hexo-renderer-mustache",
+  "version": "1.0.0",
+  "description": "Mustache renderer for Hexo",
+  "main": "index.js",
+  "scripts": {
+    "standard": "standard --env mocha .",
+    "test": "mocha test/index.js",
+    "test-cov": "istanbul cover --print both _mocha -- test/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/snovey/hexo-renderer-mustache.git"
+  },
+  "keywords": [
+    "hexo",
+    "renderer",
+    "mustache"
+  ],
+  "author": "snovey <isnovey@gmail.com> (https://www.snovey.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/snovey/hexo-renderer-mustache/issues"
+  },
+  "homepage": "https://github.com/snovey/hexo-renderer-mustache#readme",
+  "dependencies": {
+    "mustache": "^2.3.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.5.0",
+    "standard": "^10.0.3"
+  }
+}
