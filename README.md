@@ -1,6 +1,11 @@
 # hexo-renderer-mustache
 
-[![Build Status](https://travis-ci.org/hexojs/hexo-renderer-swig.svg?branch=master)](https://travis-ci.org/hexojs/hexo-renderer-swig)  [![NPM version](https://badge.fury.io/js/hexo-renderer-swig.svg)](http://badge.fury.io/js/hexo-renderer-swig) [![Coverage Status](https://img.shields.io/coveralls/hexojs/hexo-renderer-swig.svg)](https://coveralls.io/r/hexojs/hexo-renderer-swig?branch=master)[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
+[![Build Status](https://travis-ci.org/snovey/hexo-renderer-mustache.svg?branch=master)](https://travis-ci.org/snovey/hexo-renderer-mustache)
+[![codecov](https://codecov.io/gh/snovey/hexo-renderer-mustache/branch/master/graph/badge.svg)](https://codecov.io/gh/snovey/hexo-renderer-mustache)
+[![npm version](https://badge.fury.io/js/hexo-renderer-mustache.svg)](https://badge.fury.io/js/hexo-renderer-mustache)
+![GitHub](https://img.shields.io/badge/licence-MIT-brightgreen.svg)
+[![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 Add support for [Mustache].
 
