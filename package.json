@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-mustache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mustache renderer for Hexo",
   "main": "index.js",
   "scripts": {
@@ -24,12 +24,12 @@
   },
   "homepage": "https://github.com/snovey/hexo-renderer-mustache#readme",
   "dependencies": {
-    "mustache": "^2.3.0"
+    "mustache": "^3.0.0"
   },
   "devDependencies": {
-    "chai": "^4.1.1",
+    "chai": "^4.2.0",
     "istanbul": "^0.4.5",
-    "mocha": "^3.5.0",
-    "standard": "^10.0.3"
+    "mocha": "^5.2.0",
+    "standard": "^12.0.1"
   }
 }
