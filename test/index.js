@@ -119,4 +119,12 @@ describe('Mustache renderer', function () {
       name: 'world'
     }).should.eql('Hello world!')
   })
+
+  it('partials test', function () {
+    var body = [
+      'Hello {{> _partial/test-partial }}!'
+    ].join('\n')
+
+    r({text: body, path: 'test/test.mustache'}).should.eql('Hello world!')
+  })
 })
