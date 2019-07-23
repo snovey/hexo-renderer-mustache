@@ -1,6 +1,6 @@
 {
   "name": "hexo-renderer-mustache",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "Mustache renderer for Hexo",
   "main": "index.js",
   "scripts": {
